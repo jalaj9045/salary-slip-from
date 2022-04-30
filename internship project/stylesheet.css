@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formset{
+    width: 25rem;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+
+}
+.myinput{
+    width: 100%;
+    height: 6vh;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.mybtn{
+    width: 100%;
+    height: 7vh;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    background: navy;
+    color: #fff;
+}
+label{
+    color: #fff;
+    font-size: 14px;
+}
+.pera{
+    font-size: 24px;
+    color: green;
+    font-weight: 600;
+}
